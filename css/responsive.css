@@ -1,0 +1,634 @@
+@media only screen and (max-width: 600px) {
+  .header-area {
+    height: 60vh;
+}
+  .header-text {
+    width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-text h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type {
+  0% {
+   width: 0ch;
+  }
+  100% {
+    width: 22ch; 
+  }
+}
+.header-text p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.show-menu , .hide-menu{
+  display: block;
+}
+.nav-section{
+  position: relative;
+}
+.menu{
+  display: none;
+  position:fixed;
+  height: 800px;
+  background-color: #ddd;
+  width: 400px;
+  text-align: center;
+  top: 0;
+  z-index: 999;
+  
+  
+}
+.menu ul li{
+  margin-top: 40px;
+  display: block;
+}
+.menu ul li a {
+  color: #d43076;
+  
+}
+.show-menu{
+  text-decoration:none;
+  cursor: pointer;
+  margin: 10px 20px 10px 330px;
+  font-size: 40px;
+  color: #fff;
+  font-size: 30px;
+}
+.hide-menu{
+  transform: rotate(45deg);
+  color: #d43076;
+  text-decoration:none;
+  font-size: 40px;
+ text-align:center;
+ margin-top:20px;
+}
+
+.menu:target {
+  display:block;
+}
+
+.menu:target .menu ul li{
+  margin-top: 40px;
+  display: block;
+}
+.menu:target .menu ul li a {
+  color: #d43076;
+  
+}
+
+
+
+
+
+.btn-info {
+    width: 100px;
+    background-color: #d43076;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+
+.about-image {
+  width: 500px;
+  float: none;
+  background-color: #005c99;
+  margin-left: 50px;
+}
+.about-details {
+  width: 500px;
+  float: none;
+  text-align: center;
+  margin-left: 50px;
+}
+.about-details h3 {
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+  text-align: justify;
+}
+.about-details p{
+  text-align: left;
+  padding: 0px 20px 10px 0px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.btn-profile {
+  background-color: #d43076;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 6px;
+}
+.btn-cv {
+  padding-right: 20px;
+}
+.project-col {
+  width: 500px; 
+  float: none;
+  margin-left: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.project-col img {
+  width: 100%;
+}
+.box {
+  float: none;
+  width: 35%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 10%;
+}
+.feature-col {
+  float: none;
+}
+.feature-col p{
+  text-align: left;
+  margin-left: 210px;
+}
+.cap {
+  width: 500px;
+  margin-left: 50px;
+}
+.heart {
+  width: 500px;
+  margin-left: 50px;
+}
+.plane {
+  width: 500px;
+  margin-left: 50px;
+}
+.camera {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.testimonial-area h1 {
+  text-align: justify;
+  margin-left: 90px;
+}
+
+.single-testi {
+  width: 500px;
+  margin-left: 50px;
+}
+.facebook {
+  background-color: blue;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.twitter {
+  background-color: #0099ff;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.linkedin {
+  background-color: #005c99;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.instagram {
+  background-color: red;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.printerest {
+  background-color: #cc0000;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .header-area {
+    height: 60vh;
+}
+  .header-text {
+    width: 450px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-text h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type {
+  0% {
+   width: 0ch;
+  }
+  100% {
+    width: 22ch; 
+  }
+}
+.header-text p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+.btn-info {
+    width: 100px;
+    background-color: #d43076;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+.toggle {
+  width: 100%;
+  display: block;
+}
+.menu ul {
+  width: 100%;
+  display: none;
+}
+.menu ul li {
+  display: block;
+  text-align: center;
+}
+.active {
+  display: block;
+}
+.about-image {
+  width: 400px;
+  float: none;
+  background-color: #005c99;
+  margin-left: 40px;
+}
+.about-details {
+  width: 400px;
+  float: none;
+  text-align: center;
+  margin-left: 40px;
+}
+.about-details h3 {
+  font-size: 18px;
+  padding: 10px 20px 10px 10px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.about-details p{
+  text-align: left;
+  padding: 0px 20px 10px 10px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.btn-profile {
+  background-color: #d43076;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 6px;
+}
+.btn-cv {
+  padding-right: 20px;
+}
+.project-col {
+  width: 400px; 
+  float: none;
+  margin-left: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.project-col img {
+  width: 100%;
+}
+.box {
+  float: none;
+  width: 30%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 7%;
+}
+.feature-col {
+  float: none;
+}
+.feature-col p{
+  text-align: left;
+  margin-left: 120px;
+}
+.cap {
+  width: 400px;
+  margin-left: 40px;
+}
+.heart {
+  width: 400px;
+  margin-left: 40px;
+}
+.plane {
+  width: 400px;
+  margin-left: 40px;
+}
+.camera {
+  width: 400px;
+  margin-left: 40px;
+}
+
+.testimonial-area h1 {
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.single-testi {
+  width: 400px;
+  margin-left: 40px;
+}
+.facebook {
+  background-color: blue;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.twitter {
+  background-color: #0099ff;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.linkedin {
+  background-color: #005c99;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.instagram {
+  background-color: red;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.printerest {
+  background-color: #cc0000;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+}
+@media only screen and (max-width: 375px) {
+  .header-area {
+    height: 60vh;
+}
+  .header-text {
+    width: 350px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header-text h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type {
+  0% {
+   width: 0ch;
+  }
+  100% {
+    width: 22ch; 
+  }
+}
+.header-text p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+.btn-info {
+    width: 100px;
+    background-color: #d43076;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+.toggle {
+  width: 100%;
+  float: right;
+  display: block;
+}
+.menu ul {
+  width: 100%;
+  display: none;
+}
+.menu ul li {
+  display: block;
+  text-align: center;
+  color: #000;
+}
+.active {
+  display: block;
+}
+.about-image {
+  width: 350px;
+  float: none;
+  background-color: #005c99;
+  margin-left: 12px;
+}
+.about-details {
+  width: 350px;
+  float: none;
+  text-align: center;
+  margin-left: 12px;
+}
+.about-details h3 {
+  font-size: 18px;
+  padding: 10px 0px 10px 10px;
+  text-align: justify;
+}
+.about-details p{
+  text-align: left;
+  padding: 0px 20px 10px 0px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.btn-profile {
+  background-color: #d43076;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 6px;
+}
+.btn-cv {
+  padding: 10px;
+}
+.project-col {
+  width: 350px; 
+  float: none;
+  margin-left: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.project-col img {
+  width: 100%;
+}
+.box h2 {
+  text-align: left;
+}
+.chart {
+  margin-right: 180px;
+}
+.feature-col {
+  float: none;
+}
+.feature-col p{
+  text-align: left;
+  margin-left: 90px;
+}
+.cap {
+  width: 350px;
+  margin-left: 12px;
+}
+.heart {
+  width: 350px;
+  margin-left: 12px;
+}
+.plane {
+  width: 350px;
+  margin-left: 12px;
+}
+.camera {
+  width: 350px;
+  margin-left: 12px;
+}
+
+.testimonial-area h1 {
+  text-align: justify;
+  font-size: 30px;
+  
+}
+
+.single-testi {
+  width: 350px;
+  margin-left: 12px;
+}
+.facebook {
+  background-color: blue;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.twitter {
+  background-color: #0099ff;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.linkedin {
+  background-color: #005c99;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.instagram {
+  background-color: red;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+.printerest {
+  background-color: #cc0000;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 40px 15px 50px 10px;
+  color: #fff;
+}
+}
